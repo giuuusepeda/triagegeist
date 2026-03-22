@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.git/
+*.png
+*.jpg
+*.csv
+*.parquet
+.env
+secrets/

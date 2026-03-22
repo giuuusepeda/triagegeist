@@ -1,0 +1,13 @@
+FROM quay.io/jupyter/scipy-notebook:python-3.11
+
+RUN pip install --no-cache-dir \
+    xgboost==3.2.0 \
+    lightgbm==4.6.0 \
+    sentence-transformers==5.2.3 \
+    google-cloud-bigquery==3.40.1 \
+    db-dtypes==1.5.0 \
+    optuna==4.7.0 \
+    shap==0.51.0 \
+    mlflow==3.10.1
+
+WORKDIR /home/jovyan/work

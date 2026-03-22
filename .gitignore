@@ -208,3 +208,7 @@ __marimo__/
 
 # Model artifacts
 *.pkl
+
+
+mlruns/
+06_Output/artifacts/
